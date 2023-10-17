@@ -19,5 +19,11 @@ namespace AliSalmeh_ProjectWeek8_LibraryCatalog
         }
 
         public abstract void DisplayAdditionalInfo();
+        public void DisplayBasicInfo()
+        {
+            Console.WriteLine($"Title: {Title}" +
+                            $"\nAuthor: {Author}" +
+                            $"\nPages: {Pages}");
+        }
     }
 }
