@@ -11,7 +11,10 @@ namespace AliSalmeh_ProjectWeek8_LibraryCatalog
         {
             foreach (var book in books)
             {
-                Console.WriteLine(book);
+                Console.WriteLine("----------");
+                book.DisplayBasicInfo();
+                book.DisplayAdditionalInfo();
+                Console.WriteLine("----------");
             }
         }
     }
