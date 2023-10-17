@@ -18,6 +18,6 @@ namespace AliSalmeh_ProjectWeek8_LibraryCatalog
             Pages = pages;
         }
 
-        public abstract override string ToString();
+        public abstract void DisplayAdditionalInfo();
     }
 }

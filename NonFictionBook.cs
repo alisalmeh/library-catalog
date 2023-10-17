@@ -14,11 +14,9 @@ namespace AliSalmeh_ProjectWeek8_LibraryCatalog
             Topic = topic;
         }
 
-        public override string ToString()
+        public override void DisplayAdditionalInfo()
         {
-            return "----------\n" +
-                $"Title: {Title}\nAuthor: {Author}\nPages: {Pages}\nTopic: {Topic}\n" +
-                "----------";
+            Console.WriteLine($"Topic: {Topic}");
         }
     }
 }

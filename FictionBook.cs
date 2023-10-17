@@ -14,11 +14,9 @@ namespace AliSalmeh_ProjectWeek8_LibraryCatalog
             Genre = genre;
         }
 
-        public override string ToString()
+        public override void DisplayAdditionalInfo()
         {
-            return "----------\n" +
-                $"Title: {Title}\nAuthor: {Author}\nPages: {Pages}\nGenre: {Genre}\n" +
-                "----------";
+            Console.WriteLine($"Genre: {Genre}");
         }
     }
 }
